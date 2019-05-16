@@ -1,37 +1,87 @@
 fileFormatVersion: 2
 guid: 04f503c591aebaf4c929bc270bddda82
-timeCreated: 1527044507
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: platformer_tileset_0
-    21300002: platformer_tileset_1
-    21300004: platformer_tileset_2
-    21300006: platformer_tileset_3
-    21300008: platformer_tileset_4
-    21300010: platformer_tileset_5
-    21300012: platformer_tileset_6
-    21300014: platformer_tileset_7
-    21300016: platformer_tileset_8
-    21300018: platformer_tileset_9
-    21300020: platformer_tileset_10
-    21300022: platformer_tileset_11
-    21300024: platformer_tileset_12
-    21300026: platformer_tileset_13
-    21300028: platformer_tileset_14
-    21300030: platformer_tileset_15
-    21300032: platformer_tileset_16
-    21300034: platformer_tileset_17
-    21300036: platformer_tileset_18
-    21300038: platformer_tileset_19
-    21300040: platformer_tileset_20
-    21300042: platformer_tileset_21
-    21300044: platformer_tileset_22
-    21300046: platformer_tileset_23
-    21300048: platformer_tileset_24
-    21300050: platformer_tileset_25
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: platformer_tileset_0
+  - first:
+      213: 21300002
+    second: platformer_tileset_1
+  - first:
+      213: 21300004
+    second: platformer_tileset_2
+  - first:
+      213: 21300006
+    second: platformer_tileset_3
+  - first:
+      213: 21300008
+    second: platformer_tileset_4
+  - first:
+      213: 21300010
+    second: platformer_tileset_5
+  - first:
+      213: 21300012
+    second: platformer_tileset_6
+  - first:
+      213: 21300014
+    second: platformer_tileset_7
+  - first:
+      213: 21300016
+    second: platformer_tileset_8
+  - first:
+      213: 21300018
+    second: platformer_tileset_9
+  - first:
+      213: 21300020
+    second: platformer_tileset_10
+  - first:
+      213: 21300022
+    second: platformer_tileset_11
+  - first:
+      213: 21300024
+    second: platformer_tileset_12
+  - first:
+      213: 21300026
+    second: platformer_tileset_13
+  - first:
+      213: 21300028
+    second: platformer_tileset_14
+  - first:
+      213: 21300030
+    second: platformer_tileset_15
+  - first:
+      213: 21300032
+    second: platformer_tileset_16
+  - first:
+      213: 21300034
+    second: platformer_tileset_17
+  - first:
+      213: 21300036
+    second: platformer_tileset_18
+  - first:
+      213: 21300038
+    second: platformer_tileset_19
+  - first:
+      213: 21300040
+    second: platformer_tileset_20
+  - first:
+      213: 21300042
+    second: platformer_tileset_21
+  - first:
+      213: 21300044
+    second: platformer_tileset_22
+  - first:
+      213: 21300046
+    second: platformer_tileset_23
+  - first:
+      213: 21300048
+    second: platformer_tileset_24
+  - first:
+      213: 21300050
+    second: platformer_tileset_25
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -49,6 +99,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -59,7 +111,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -71,7 +123,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -79,11 +131,13 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -93,7 +147,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -103,7 +158,63 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Android
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -130,6 +241,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9674840491bb3944590ea9908be02621
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_1
       rect:
@@ -144,6 +262,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: db65ee8d5cb371b4882f1904c9d2359c
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_2
       rect:
@@ -158,6 +283,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ddd92e3780d492349a2f08aba9c4300f
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_3
       rect:
@@ -172,6 +304,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f8d9479c2dd784f4fb8805f80c47165f
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_4
       rect:
@@ -186,6 +325,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 76ecedf89cb4a8e4db5de287a131dc8b
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_5
       rect:
@@ -200,6 +346,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02118132b7882324ca5b9a11a5839e2d
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_6
       rect:
@@ -214,6 +367,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6923b15a352fb40469de5df38abec9f5
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_7
       rect:
@@ -228,6 +388,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 024972b91b2bcc644b800b7bd5dc895e
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_8
       rect:
@@ -242,6 +409,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 05685b839f57614469db89ae9d4ff5c1
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_9
       rect:
@@ -256,6 +430,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d5bd936ab0a529949bbc8229428eb7ad
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_10
       rect:
@@ -270,6 +451,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 7cf8e492922e8d04786ca568dd21ed3c
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_11
       rect:
@@ -284,6 +472,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 51c22c1a651307541ad19bfbacc85f8d
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_12
       rect:
@@ -298,6 +493,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9096127d106c9b34dac539d616e61d80
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_13
       rect:
@@ -312,6 +514,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5e1e56e317f20f0408b32fc9e0946ad4
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_14
       rect:
@@ -326,6 +535,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: f246ace9c891130499dac0af4093ff37
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_15
       rect:
@@ -340,6 +556,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 6513d0a2a62adf34083108c9b88b5e84
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_16
       rect:
@@ -354,6 +577,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9590cf19287ef8b42aa2798f8ba665b1
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_17
       rect:
@@ -368,6 +598,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fc30635991d62a740976be2bc8390536
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_18
       rect:
@@ -382,6 +619,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: dcbb22d1182c47645b3980196abc7d7d
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_19
       rect:
@@ -396,6 +640,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ca00fd26a8c1b3b44a79aaaa69ce0326
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_20
       rect:
@@ -410,6 +661,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c61c82642c0e5bf459429e19fe801ea3
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_21
       rect:
@@ -424,6 +682,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5a26a349cda85364e806cf57fcd30f4a
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_22
       rect:
@@ -438,6 +703,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: e2323b20c4cbaf346bfe8db4ca793636
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_23
       rect:
@@ -452,6 +724,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: bfd54b6364e2fd74cb32b77664965a2c
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_24
       rect:
@@ -466,6 +745,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 18a57ae3e8e9df84780def83299a51dc
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: platformer_tileset_25
       rect:
@@ -480,9 +766,26 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5b073b1e3f3564e40a721869fc13de49
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
