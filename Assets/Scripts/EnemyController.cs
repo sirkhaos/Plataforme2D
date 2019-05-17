@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour
     private Rigidbody2D enemyRb;
     private SpriteRenderer enemySR;
     private Animator enemyAnim;
+    private ParticleSystem enemyParticle;
 
     [SerializeField]
     private float delay = 0.5f;
@@ -20,6 +21,7 @@ public class EnemyController : MonoBehaviour
         enemyRb = GetComponent<Rigidbody2D>();
         enemySR = GetComponent<SpriteRenderer>();
         enemyAnim = GetComponent<Animator>();
+        enemyParticle = GameObject.Find("EnemyParticle").GetComponent<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -49,6 +51,9 @@ public class EnemyController : MonoBehaviour
             if (transform.position.y < collision.transform.position.y)
             {
                 enemyAnim.SetBool("isDead", true);
+                enemyParticle.transform.position = transform.position;
+                enemyParticle.Play();
+                speed = 0;
             }
         }
     }
