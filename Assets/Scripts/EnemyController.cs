@@ -10,6 +10,7 @@ public class EnemyController : MonoBehaviour
     private SpriteRenderer enemySR;
     private Animator enemyAnim;
     private ParticleSystem enemyParticle;
+    private AudioSource deadFXS;
 
     [SerializeField]
     private float delay = 0.5f;
@@ -22,6 +23,7 @@ public class EnemyController : MonoBehaviour
         enemySR = GetComponent<SpriteRenderer>();
         enemyAnim = GetComponent<Animator>();
         enemyParticle = GameObject.Find("EnemyParticle").GetComponent<ParticleSystem>();
+        deadFXS = GetComponentInParent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -50,6 +52,7 @@ public class EnemyController : MonoBehaviour
         {
             if (transform.position.y < collision.transform.position.y)
             {
+                deadFXS.Play();
                 enemyAnim.SetBool("isDead", true);
                 enemyParticle.transform.position = transform.position;
                 enemyParticle.Play();

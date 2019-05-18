@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private const string horizontal = "Horizontal";
     private bool isGrounded = true;
     private Animator ani;
+    private AudioSource jumpFXS;
 
     public float speed=10f;
     public float jumpSpeed=3000;
@@ -18,6 +19,7 @@ public class PlayerController : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
+        jumpFXS = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -45,6 +47,7 @@ public class PlayerController : MonoBehaviour
             playerRb.AddForce(Vector2.up * jumpSpeed);
             isGrounded = false;
             ani.SetTrigger("Jump");
+            jumpFXS.Play();
         }
     }
 
