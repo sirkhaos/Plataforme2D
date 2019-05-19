@@ -5,11 +5,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D playerRb;
-    private const string horizontal = "Horizontal";
-    private bool isGrounded = true;
+    private SceneChanger changerScene;
+    public bool isGrounded = true;
     private Animator ani;
     private AudioSource jumpFXS;
-
+    private const string horizontal = "Horizontal";
     public float speed=10f;
     public float jumpSpeed=3000;
     
